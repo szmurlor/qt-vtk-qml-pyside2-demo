@@ -3,7 +3,7 @@
 The source code is based on [Nicanor Romero Venier's project](https://github.com/nicanor-romero/QtVtk) and its [Tung
 dao-duc-tung port to Python](https://github.com/dao-duc-tung/QtVTK-Py).
 
-This is a strongly simplified version of the application which focuses mainly on fixing problems with binding between Qt and QML. The code is refactored to focus on the integration of VTK and QML. This is more a tutorial version fo the application than a final product. In addition it shows how to overlay a very simple Qt Charts plot.
+This is a strongly simplified version of the application which focuses mainly on fixing problems with binding between Qt, QML, PySide2 and VTK. The code is refactored to focus on the integration of VTK and QML. This is more a tutorial version of the application than a final product. In addition it shows how to overlay a very simple QML Qt Charts plot and feed it with data from Python.
 
 ## Description
 
@@ -13,7 +13,7 @@ Thanks Nicanor and Tung very much!
 
 ## Installation
 
-Assuming you are having a conda environment (on January 2020 the pip has not yet release the 8.2 version of VTK which supports PySide2 for the interactor binding.)
+Assuming you are having a conda environment (on January 2020 the pip has not yet released the 8.2 version of VTK which supports PySide2 for the interactor binding.)
 
 ```sh
 conda create --name vtkqml python=3.7
